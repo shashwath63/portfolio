@@ -159,13 +159,13 @@ const Hero = () => {
         </div>
 
         <div className="hero-social animate-fadeInUp" style={{ animationDelay: '0.5s' }}>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
+          <a href="https://github.com/shashwath63" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
             <Icons.GitHub />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/shashwath-b-n-a287241b8" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
             <Icons.LinkedIn />
           </a>
-          <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LeetCode">
+          <a href="https://leetcode.com/shashwath63" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LeetCode">
             <Icons.LeetCode />
           </a>
         </div>
@@ -304,7 +304,7 @@ const Skills = () => {
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express.js', 'RESTful APIs', 'Microservices'],
+      skills: ['Node.js', 'Express.js', 'Spring Boot', 'RESTful APIs', 'Microservices'],
     },
     {
       title: 'Databases',
@@ -353,19 +353,27 @@ const Skills = () => {
 const Projects = () => {
   const projects = [
     {
+      title: 'Event Connect - Event Booking Platform',
+      year: '2025',
+      tech: ['Spring Boot 3', 'Java 17', 'Next.js 14', 'PostgreSQL', 'Docker', 'Bucket4j'],
+      description: 'Architected a scalable full-stack event booking platform (similar to BookMyShow) using Spring Boot 3 for backend and Next.js 14 for frontend. Implemented API Rate Limiting using Bucket4j (5 requests/min), JWT authentication, complex PostgreSQL schemas for concurrent ticket bookings, and a "Top 3 Most Booked" analytics feature. Containerized with Docker for consistent deployment.',
+      github: 'https://github.com/shashwath63/event-connect',
+      link: 'https://event-connect-ten.vercel.app',
+    },
+    {
       title: 'Slooze - Food Ordering App',
       year: '2025',
       tech: ['Next.js', 'Prisma', 'PostgreSQL'],
       description: 'A full-stack food ordering application with Role-Based Access Control (RBAC), Location-Based Access Control, and a premium Dark/Light Mode UI. Features a responsive frontend providing seamless user experience across desktop and mobile devices.',
-      link: '#',
-      github: '#',
+      link: 'https://slooze-gules.vercel.app',
+      github: 'https://github.com/shashwath63/slooze',
     },
     {
       title: 'MERN E-Commerce Platform',
       year: '2025',
       tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe API'],
       description: 'A feature-rich e-commerce platform with product catalog, shopping cart, and secure checkout. Integrated Stripe payment gateway for secure transactions with order management and tracking capabilities. Utilized Redux for centralized state management.',
-      github: 'https://github.com',
+      github: 'https://github.com/shashwath63/mern-ecommerce',
     },
   ];
 
@@ -535,11 +543,11 @@ const Contact = () => {
                 <Icons.LinkedIn />
                 <span>LinkedIn</span>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-btn">
+              <a href="https://github.com/shashwath63" target="_blank" rel="noopener noreferrer" className="social-btn">
                 <Icons.GitHub />
                 <span>GitHub</span>
               </a>
-              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" className="social-btn">
+              <a href="https://leetcode.com/shashwath63" target="_blank" rel="noopener noreferrer" className="social-btn">
                 <Icons.LeetCode />
                 <span>LeetCode</span>
               </a>

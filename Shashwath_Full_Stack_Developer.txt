@@ -54,6 +54,16 @@ Harkirat Singh - Advanced MERN Stack Technologies Remote
 microservices, and AWS.
 
 Key Projects
+Event Connect - Event Booking Platform 2025
+Spring Boot 3, Java 17, Next.js 14, PostgreSQL, Docker, Bucket4j
+– Architected a scalable full-stack event booking platform (similar to BookMyShow) using Spring Boot 3 for the backend and
+Next.js 14 for a responsive frontend.
+– Implemented robust API Rate Limiting using Bucket4j (5 requests/min) and secured endpoints with JWT authentication,
+preventing abuse and ensuring data integrity.
+– Designed complex database schemas in PostgreSQL to handle concurrent ticket bookings and utilized custom queries to drive a
+”Top 3 Most Booked” analytics feature.
+– Containerized the application using Docker for consistent local development and production deployment workflows.
+
 Slooze - Food Ordering App 2025
 Next.js, Prisma, and PostgreSQL— Link
 
